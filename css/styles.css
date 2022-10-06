@@ -1,0 +1,23 @@
+:root {
+    --color-text: #212121;
+    --color-text-secohd: #757575;
+    --color-text-logo: #2196F3;
+    --primery-background: #ffffff;
+    --second-background: #2F303A;
+    --boxes-color: #EEEEEE;
+    --filter-color: #F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--primery-background);
+    color: var(#212121);
+}
+
+ul {
+    list-style: none;
+}
+.site-nav, .link {
+    color: var(--color-text-logo);
+}
+
