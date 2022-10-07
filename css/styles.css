@@ -1,7 +1,7 @@
 :root {
     --color-text: #212121; /*основний колір тексту*/
     --color-text-secohd: #757575; /*колір тексту другий*/
-    --color-text-logo: #2196F3; /*колір лого*/
+    --color-text-logo: #2196F3; /*колір лого і нав хедер*/
     --color-text-logo2: #000000; /*колір лого*/
     --primery-background: #ffffff; /* колір фону хедер */
     --second-background: #2F303A; /*колір фону зверху секція 1 та футер*/
@@ -14,25 +14,154 @@ body {
     background-color: var(--background-olor);
     color: var(#212121);
 }
-
 ul {
     list-style: none;
 }
 /*logo*/
-.logo-web {
-    color: var(--color-text-logo);
+
+.logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    list-style: none;
+    text-decoration: none;
 }
-.logo-studio {
-    
-}
-
-.site-nav, .link {
+.logo-web {
     color: var(--color-text-logo);
 }
+.logo-studio {
+    color: var(--color-text-logo2);
+}
+/*хедер навігація*/
+.site-nav, .link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+.link:hover {
+    color: var(--color-text-logo);
+}
+
+/*хедер пошта тел*/
+.heder-contact {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text-secohd);
+}
+.heder-contact:hover {
+    color: var(--color-text-logo);
+}
+
+/*секція 1 заголовок і кнопка*/
+.section {
+    background-color: var(--second-background);
+}
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primery-background);
+}
+.button {
+    background: var(--color-text-logo);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primery-background);
+}
+
+/*наші переваги, секція 2*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14x;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+.list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secohd);
+}
+
+/*чим ми займаємося*/
+.title-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+/*наша команда*/
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secohd);
+} 
+
+/*футер*/
+.footer {
+    background-color: var(--second-background);
+}
+.footer-contact{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adres {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-background);
+}
+
+
+
+
 /**/
