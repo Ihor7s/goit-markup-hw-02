@@ -75,6 +75,7 @@ ul {
     color: var(--primery-background);
 }
 .button {
+    cursor: pointer;
     background: var(--color-text-logo);
     font-weight: 700;
     font-size: 16px;
