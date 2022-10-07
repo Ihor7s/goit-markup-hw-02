@@ -1,23 +1,38 @@
 :root {
-    --color-text: #212121;
-    --color-text-secohd: #757575;
-    --color-text-logo: #2196F3;
-    --primery-background: #ffffff;
-    --second-background: #2F303A;
-    --boxes-color: #EEEEEE;
-    --filter-color: #F5F4FA;
+    --color-text: #212121; /*основний колір тексту*/
+    --color-text-secohd: #757575; /*колір тексту другий*/
+    --color-text-logo: #2196F3; /*колір лого*/
+    --color-text-logo2: #000000; /*колір лого*/
+    --primery-background: #ffffff; /* колір фону хедер */
+    --second-background: #2F303A; /*колір фону зверху секція 1 та футер*/
+    --filter-color: #F5F4FA;/*колір наша команда*/
+    --background-olor: #F5F5F5; /*основний колір фону*/
 }
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: var(--primery-background);
+    background-color: var(--background-olor);
     color: var(#212121);
 }
 
 ul {
     list-style: none;
 }
+/*logo*/
+.logo-web {
+    color: var(--color-text-logo);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-studio {
+    
+}
+
 .site-nav, .link {
     color: var(--color-text-logo);
 }
-
+/**/
